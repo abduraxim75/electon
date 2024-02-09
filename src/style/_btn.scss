@@ -1,0 +1,32 @@
+.btn {
+    padding: 19px 37px;
+    border-radius: 20px;
+    border: 2px solid #EDA415;
+    background-color: #EDA415;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn[btnsize="btn--small"] {
+    margin-left: -14px;
+    padding: 0px 37px;
+    height: 58px;
+    border-radius: 20px;
+    border: 2px solid #EDA415;
+    background-color: #EDA415;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn[btnsize="more"]{
+    color: #316887;
+    background-color: white;
+    border: 1px solid #316887;
+}

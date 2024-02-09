@@ -1,0 +1,64 @@
+.nav-container {
+    width: 1440px;
+    height: 100px;
+    background-color: #003F62;
+
+}
+
+.ul-list {
+    display: flex;
+    width: 325px;
+    margin: 30px 0px 0px 310px;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-input {
+    width: 306px;
+    height: 58px;
+    margin-left: 85px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: -20px;
+    padding-left: 25px;
+    outline: none;
+}
+
+
+.nav-input-container {
+    display: flex;
+    width: 663px;
+    margin: 22px 0px 22px 67px;
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-top: 8px;
+    width: 140px;
+    height: 39px;
+}
+
+.ul_li__list {
+    display: flex;
+    cursor: pointer;
+    p {
+        margin-left: 12px;
+        color: #FFF;
+
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.navlogin{
+    text-decoration: none;
+}

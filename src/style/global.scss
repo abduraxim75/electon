@@ -1,0 +1,49 @@
+@import "nav-container";
+@import "carousel";
+@import "btn";
+@import "sale";
+@import "auth";
+@import "notfound";
+@import "sidebar";
+@import "section";
+@import "footer";
+@import "autocarousel";
+@import "loading";
+@import "modal";
+@import "dashboard";
+@import "table";
+@import "home-products";
+@import "manage-product";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.account {
+    display: flex;
+}
+
+.phone-admin{
+    height: 50px;
+    p{
+        margin-top: 21px;
+        margin-left: 61px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal
+    }
+}

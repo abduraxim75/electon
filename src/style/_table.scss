@@ -1,0 +1,22 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    td{
+        &:first-child{
+            padding-left:1rem;
+        }
+    }
+    td,th{
+        padding: 8px;
+    }
+    th{
+        padding: 1rem 0;
+        text-align: left;
+    }
+    tr{
+        &:nth-child(odd) td{
+            background-color: lightgray;
+
+        }
+    }
+}

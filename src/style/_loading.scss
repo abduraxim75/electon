@@ -1,0 +1,25 @@
+// BeautifulLoading.module.scss
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.beautifulLoading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .spinner {
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        border-top: 5px solid #7734db;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        animation: spin 2s linear infinite;
+    }
+}

@@ -1,0 +1,21 @@
+.modal{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    background-color: #fff;
+}
+
+.modal-overlay{
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000089;
+    backdrop-filter: blur(3px);
+}

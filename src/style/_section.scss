@@ -1,0 +1,42 @@
+.gold-container {
+    width: 1328px;
+    height: 155px;
+    background: #E2F4FF;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 53px;
+    margin-top: 25px;
+
+    img {
+        width: 67px;
+        height: 67px;
+        margin-left: 118px;
+        margin-top: 43px;
+    }
+}
+
+.al {
+    width: 1100px;
+    display: flex;
+    justify-content: baseline;
+    
+
+    div {
+        margin-top: 45px;
+    }
+
+    h2 {
+        font-family: Poppins;
+        font-weight: 600;
+        margin: 0px 0px 6px 31px;
+        color: #003F62;
+    }
+
+    p {
+        font-family: Poppins;
+        font-weight: 400;
+        color: #003F62;
+        width: 220px;
+        margin-left: 31px;
+    }
+}

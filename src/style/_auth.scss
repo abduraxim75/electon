@@ -1,0 +1,32 @@
+.auth-login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 130px;
+    img{
+        width: 781px;
+        height: 100%;
+        flex: 1;
+    }
+
+    form{
+        height: 100%;
+        max-width: 371px;
+        text-align: center;
+        &>div{
+            margin-top: 20px;
+        }
+        
+    }
+    
+}
+
+.link-paragraph{
+    margin-top: 20px;
+    
+}
+
+a{
+    text-decoration-color: rgb(91, 108, 207);
+    color: rgb(91, 108, 207);
+}
