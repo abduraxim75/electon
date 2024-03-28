@@ -45,7 +45,7 @@ const loginuser = createAsyncThunk("auth/login", async (userByGoogle: UserByGoog
 
 })
 
-const Getprofile = createAsyncThunk("auth/Getprofile", async (value, { rejectWithValue }) => {
+const Getprofile = createAsyncThunk("auth/Getprofile", async (_value, { }) => {
     try {
         const response: AxiosResponse = await instance("/auth/profile",{
             headers:{
@@ -78,7 +78,7 @@ const AuthSlice = createSlice({
             }
         });
 
-        builder.addCase(Getprofile.rejected, (state, action) => {
+        builder.addCase(Getprofile.rejected, (state) => {
             state.token = "";
             state.user = null;
             localStorage.removeItem("token");

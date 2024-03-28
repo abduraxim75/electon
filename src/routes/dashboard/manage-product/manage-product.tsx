@@ -10,7 +10,7 @@ import { ProductVariant } from "../../../types";
 
 const ManageProduct = () => {
     const [products, setProducts] = useState<[]>([]);
-    const [variant, setVariants] = useState<ProductVariant[]>([])
+    const [] = useState<ProductVariant[]>([])
 
     const [isModalOpen, setisModalOpen] = useState(false);
     useEffect(() => {
@@ -26,9 +26,6 @@ const ManageProduct = () => {
         fetchproduct();
     }, [])
 
-    const AddVariants = () => {
-
-    }
 
     return (
         <div className="dashboard-container">

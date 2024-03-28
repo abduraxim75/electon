@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Index } from '../../types/index';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore  from 'swiper';
+import SwiperCore from 'swiper';
 import { Pagination } from 'swiper/modules';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
